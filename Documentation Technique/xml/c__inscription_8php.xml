@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="c__inscription_8php" kind="file" language="PHP">
+    <compoundname>c_inscription.php</compoundname>
+      <sectiondef kind="var">
+      <memberdef kind="variable" id="c__inscription_8php_1aa698a3e72116e8e778be0e95d908ee30" prot="public" static="no" mutable="no">
+        <type></type>
+        <definition>$action</definition>
+        <argsstring></argsstring>
+        <name>$action</name>
+        <initializer>= $_REQUEST[&apos;action&apos;]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="controleurs/c_inscription.php" line="2" column="1" bodyfile="controleurs/c_inscription.php" bodystart="2" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;?php</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"><ref refid="c__inscription_8php_1aa698a3e72116e8e778be0e95d908ee30" kindref="member">$action</ref><sp/>=<sp/>$_REQUEST[</highlight><highlight class="stringliteral">&apos;action&apos;</highlight><highlight class="normal">];</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="keywordflow">switch</highlight><highlight class="normal">(<ref refid="c__inscription_8php_1aa698a3e72116e8e778be0e95d908ee30" kindref="member">$action</ref>)</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&apos;voirInscription&apos;</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Affichage<sp/>de<sp/>la<sp/>vue<sp/>d&apos;inscription</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>include(</highlight><highlight class="stringliteral">&apos;vues/v_inscription.php&apos;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">case</highlight><highlight class="normal"><sp/></highlight><highlight class="stringliteral">&apos;ajouterDemandeur&apos;</highlight><highlight class="normal">:</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$nom<sp/>=<sp/>$_REQUEST[</highlight><highlight class="stringliteral">&apos;nom&apos;</highlight><highlight class="normal">];</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$prenom<sp/>=<sp/>$_REQUEST[</highlight><highlight class="stringliteral">&apos;prenom&apos;</highlight><highlight class="normal">];</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$email=$_REQUEST[</highlight><highlight class="stringliteral">&apos;email&apos;</highlight><highlight class="normal">];</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$mdp=$_REQUEST[</highlight><highlight class="stringliteral">&apos;mdp&apos;</highlight><highlight class="normal">];</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$rue=$_REQUEST[</highlight><highlight class="stringliteral">&apos;rue&apos;</highlight><highlight class="normal">];</highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$cp=$_REQUEST[</highlight><highlight class="stringliteral">&apos;cp&apos;</highlight><highlight class="normal">];</highlight></codeline>
+<codeline lineno="20"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$ville=$_REQUEST[</highlight><highlight class="stringliteral">&apos;ville&apos;</highlight><highlight class="normal">];</highlight></codeline>
+<codeline lineno="21"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$date_naissance=$_REQUEST[</highlight><highlight class="stringliteral">&apos;datenaissance&apos;</highlight><highlight class="normal">];</highlight></codeline>
+<codeline lineno="22"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>$licence=$_REQUEST[</highlight><highlight class="stringliteral">&apos;licence&apos;</highlight><highlight class="normal">];</highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><ref refid="index_8php_1a5766efd703cef0e00bfc06b3f3acbe0e" kindref="member">$pdo</ref>-&gt;newDemandeur($email,<sp/>$nom,<sp/>$prenom,<sp/>$rue,<sp/>$cp,<sp/>$ville,<sp/>$date_naissance,<sp/>$mdp,<sp/>$licence);</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">//Inscrit<sp/>l&apos;utilisateur<sp/>avec<sp/>ses<sp/>informations<sp/>saisies<sp/>et<sp/>affiche<sp/>l&apos;authentification</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="26"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>header(</highlight><highlight class="stringliteral">&quot;Location:index.php?uc=connexion&amp;action=voirConnexion&quot;</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keywordflow">break</highlight><highlight class="normal">;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight></codeline>
+<codeline lineno="31"><highlight class="normal">}</highlight></codeline>
+    </programlisting>
+    <location file="controleurs/c_inscription.php"/>
+  </compounddef>
+</doxygen>

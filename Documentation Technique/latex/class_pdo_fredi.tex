@@ -1,0 +1,274 @@
+\hypertarget{class_pdo_fredi}{}\section{Référence de la classe Pdo\+Fredi}
+\label{class_pdo_fredi}\index{Pdo\+Fredi@{Pdo\+Fredi}}
+\subsection*{Fonctions membres publiques}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_pdo_fredi_a1c6024f681d3956654622d9f28e540a2}{\+\_\+destruct} ()
+\item 
+\hyperlink{class_pdo_fredi_ab7a163dd17d16734868bf88b698e0629}{get\+Utilisateur} (\$email, \$mdp)
+\item 
+\hyperlink{class_pdo_fredi_a4eb642f54ad574b37530ac472c4d5f85}{new\+Demandeur} (\$email, \$nom, \$prenom, \$rue, \$cp, \$ville, \$date\+\_\+naissance, \$mdp, \$licence)
+\item 
+\hyperlink{class_pdo_fredi_a497e67d28e10dfc2f25e18560123afbe}{new\+Ligne\+Frais} (\$email, \$motif, \$datefrais, \$trajet, \$km, \$cout\+\_\+peage, \$cout\+\_\+repas, \$cout\+\_\+hebergement)
+\item 
+\hyperlink{class_pdo_fredi_ab6ef637446cff167c74e4c7a4eabfe03}{update\+Ligne\+Frais} (\$idfrais, \$num\+\_\+motif, \$date, \$trajet, \$km, \$cout\+\_\+peage, \$cout\+\_\+repas, \$cout\+\_\+hebergement)
+\item 
+\hyperlink{class_pdo_fredi_a4e959696a4b3c9a53f08e086aac11312}{delete\+Ligne\+Frais} (\$idfrais)
+\item 
+\hyperlink{class_pdo_fredi_af1aaeb781863467e305ebf71a325ddf8}{get\+Lignes\+Frais\+Demandeur} (\$mail)
+\item 
+\hyperlink{class_pdo_fredi_ab20d05203b00e430a0f4373b0da62c03}{get\+La\+Lignes\+Frais\+Demandeur} (\$idfrais, \$mail)
+\item 
+\hyperlink{class_pdo_fredi_aa6203e1d4f8a89a6b837c01be42581c9}{get\+Km} ()
+\item 
+\hyperlink{class_pdo_fredi_ad09c889ade4715362a2f9a91ca3dfb5f}{get\+Motif} (\$N\+U\+M\+\_\+\+M\+O\+T\+I\+F)
+\item 
+\hyperlink{class_pdo_fredi_a14751fcb08935bb959ecdbeeaf7ec429}{get\+Les\+Motifs} ()
+\item 
+\hyperlink{class_pdo_fredi_a999ec8c14031968ce9d6ba2410105d4b}{deconnexion} ()
+\end{DoxyCompactItemize}
+\subsection*{Fonctions membres publiques statiques}
+\begin{DoxyCompactItemize}
+\item 
+static \hyperlink{class_pdo_fredi_a8476065871bfa97da916e3f167e4255d}{get\+Pdo\+Fredi} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Documentation des fonctions membres}
+\hypertarget{class_pdo_fredi_a1c6024f681d3956654622d9f28e540a2}{}\index{Pdo\+Fredi@{Pdo\+Fredi}!\+\_\+destruct@{\+\_\+destruct}}
+\index{\+\_\+destruct@{\+\_\+destruct}!Pdo\+Fredi@{Pdo\+Fredi}}
+\subsubsection[{\+\_\+destruct()}]{\setlength{\rightskip}{0pt plus 5cm}\+\_\+destruct (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_pdo_fredi_a1c6024f681d3956654622d9f28e540a2}
+Fonction qui supprime le Pdo \hypertarget{class_pdo_fredi_a999ec8c14031968ce9d6ba2410105d4b}{}\index{Pdo\+Fredi@{Pdo\+Fredi}!deconnexion@{deconnexion}}
+\index{deconnexion@{deconnexion}!Pdo\+Fredi@{Pdo\+Fredi}}
+\subsubsection[{deconnexion()}]{\setlength{\rightskip}{0pt plus 5cm}deconnexion (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_pdo_fredi_a999ec8c14031968ce9d6ba2410105d4b}
+Fonction qui permet de déconnecter l\textquotesingle{}utilisateur \hypertarget{class_pdo_fredi_a4e959696a4b3c9a53f08e086aac11312}{}\index{Pdo\+Fredi@{Pdo\+Fredi}!delete\+Ligne\+Frais@{delete\+Ligne\+Frais}}
+\index{delete\+Ligne\+Frais@{delete\+Ligne\+Frais}!Pdo\+Fredi@{Pdo\+Fredi}}
+\subsubsection[{delete\+Ligne\+Frais(\$idfrais)}]{\setlength{\rightskip}{0pt plus 5cm}delete\+Ligne\+Frais (
+\begin{DoxyParamCaption}
+\item[{}]{\$idfrais}
+\end{DoxyParamCaption}
+)}\label{class_pdo_fredi_a4e959696a4b3c9a53f08e086aac11312}
+Fonction qui permet de supprimer la ligne de frais
+
+
+\begin{DoxyParams}{Paramètres}
+{\em \$idfrais} & \+: I\+D de la ligne de frais \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_pdo_fredi_aa6203e1d4f8a89a6b837c01be42581c9}{}\index{Pdo\+Fredi@{Pdo\+Fredi}!get\+Km@{get\+Km}}
+\index{get\+Km@{get\+Km}!Pdo\+Fredi@{Pdo\+Fredi}}
+\subsubsection[{get\+Km()}]{\setlength{\rightskip}{0pt plus 5cm}get\+Km (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_pdo_fredi_aa6203e1d4f8a89a6b837c01be42581c9}
+Fonction qui permet d\textquotesingle{}obtenir la constante K\+M \begin{DoxyReturn}{Renvoie}
+\$ligne\+K\+M 
+\end{DoxyReturn}
+\hypertarget{class_pdo_fredi_ab20d05203b00e430a0f4373b0da62c03}{}\index{Pdo\+Fredi@{Pdo\+Fredi}!get\+La\+Lignes\+Frais\+Demandeur@{get\+La\+Lignes\+Frais\+Demandeur}}
+\index{get\+La\+Lignes\+Frais\+Demandeur@{get\+La\+Lignes\+Frais\+Demandeur}!Pdo\+Fredi@{Pdo\+Fredi}}
+\subsubsection[{get\+La\+Lignes\+Frais\+Demandeur(\$idfrais, \$mail)}]{\setlength{\rightskip}{0pt plus 5cm}get\+La\+Lignes\+Frais\+Demandeur (
+\begin{DoxyParamCaption}
+\item[{}]{\$idfrais, }
+\item[{}]{\$mail}
+\end{DoxyParamCaption}
+)}\label{class_pdo_fredi_ab20d05203b00e430a0f4373b0da62c03}
+Fonction qui permet d\textquotesingle{}obtenir la ligne de frais 
+\begin{DoxyParams}{Paramètres}
+{\em \$idfrais} & \+: I\+D de la lignes\+\_\+frais \\
+\hline
+{\em \$mail} & \+: Adresse Mail de l\textquotesingle{}utilisateur \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+\$la\+Ligne \+: Retourne la liste de frais choisie 
+\end{DoxyReturn}
+\hypertarget{class_pdo_fredi_a14751fcb08935bb959ecdbeeaf7ec429}{}\index{Pdo\+Fredi@{Pdo\+Fredi}!get\+Les\+Motifs@{get\+Les\+Motifs}}
+\index{get\+Les\+Motifs@{get\+Les\+Motifs}!Pdo\+Fredi@{Pdo\+Fredi}}
+\subsubsection[{get\+Les\+Motifs()}]{\setlength{\rightskip}{0pt plus 5cm}get\+Les\+Motifs (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_pdo_fredi_a14751fcb08935bb959ecdbeeaf7ec429}
+Fonction qui permet de retourner les motifs\textquotesingle{}
+
+\begin{DoxyReturn}{Renvoie}
+\$les\+Motifs 
+\end{DoxyReturn}
+\hypertarget{class_pdo_fredi_af1aaeb781863467e305ebf71a325ddf8}{}\index{Pdo\+Fredi@{Pdo\+Fredi}!get\+Lignes\+Frais\+Demandeur@{get\+Lignes\+Frais\+Demandeur}}
+\index{get\+Lignes\+Frais\+Demandeur@{get\+Lignes\+Frais\+Demandeur}!Pdo\+Fredi@{Pdo\+Fredi}}
+\subsubsection[{get\+Lignes\+Frais\+Demandeur(\$mail)}]{\setlength{\rightskip}{0pt plus 5cm}get\+Lignes\+Frais\+Demandeur (
+\begin{DoxyParamCaption}
+\item[{}]{\$mail}
+\end{DoxyParamCaption}
+)}\label{class_pdo_fredi_af1aaeb781863467e305ebf71a325ddf8}
+Fonction qui permet d\textquotesingle{}obtenir les lignes de frais de l\textquotesingle{}utilisateur
+
+
+\begin{DoxyParams}{Paramètres}
+{\em \$mail} & \+: Adresse Mail de l\textquotesingle{}utilisateur \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+\$les\+Lignes \+: Retourne les lignes de frais de l\textquotesingle{}utilisateur 
+\end{DoxyReturn}
+\hypertarget{class_pdo_fredi_ad09c889ade4715362a2f9a91ca3dfb5f}{}\index{Pdo\+Fredi@{Pdo\+Fredi}!get\+Motif@{get\+Motif}}
+\index{get\+Motif@{get\+Motif}!Pdo\+Fredi@{Pdo\+Fredi}}
+\subsubsection[{get\+Motif(\$\+N\+U\+M\+\_\+\+M\+O\+T\+I\+F)}]{\setlength{\rightskip}{0pt plus 5cm}get\+Motif (
+\begin{DoxyParamCaption}
+\item[{}]{\$\+N\+U\+M\+\_\+\+M\+O\+T\+I\+F}
+\end{DoxyParamCaption}
+)}\label{class_pdo_fredi_ad09c889ade4715362a2f9a91ca3dfb5f}
+Fonction qui permet d\textquotesingle{}obtenir un Motif 
+\begin{DoxyParams}{Paramètres}
+{\em \$\+N\+U\+M\+\_\+\+M\+O\+T\+I\+F} & \+: Numero du motif \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+\$lignes\+Motif \+: Retourne le libelle du Motif 
+\end{DoxyReturn}
+\hypertarget{class_pdo_fredi_a8476065871bfa97da916e3f167e4255d}{}\index{Pdo\+Fredi@{Pdo\+Fredi}!get\+Pdo\+Fredi@{get\+Pdo\+Fredi}}
+\index{get\+Pdo\+Fredi@{get\+Pdo\+Fredi}!Pdo\+Fredi@{Pdo\+Fredi}}
+\subsubsection[{get\+Pdo\+Fredi()}]{\setlength{\rightskip}{0pt plus 5cm}static get\+Pdo\+Fredi (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [static]}}\label{class_pdo_fredi_a8476065871bfa97da916e3f167e4255d}
+Fonction qui crée le \hyperlink{class_pdo_fredi}{Pdo\+Fredi} \begin{DoxyReturn}{Renvoie}
+\$mon\+Pdo\+Fredi 
+\end{DoxyReturn}
+\hypertarget{class_pdo_fredi_ab7a163dd17d16734868bf88b698e0629}{}\index{Pdo\+Fredi@{Pdo\+Fredi}!get\+Utilisateur@{get\+Utilisateur}}
+\index{get\+Utilisateur@{get\+Utilisateur}!Pdo\+Fredi@{Pdo\+Fredi}}
+\subsubsection[{get\+Utilisateur(\$email, \$mdp)}]{\setlength{\rightskip}{0pt plus 5cm}get\+Utilisateur (
+\begin{DoxyParamCaption}
+\item[{}]{\$email, }
+\item[{}]{\$mdp}
+\end{DoxyParamCaption}
+)}\label{class_pdo_fredi_ab7a163dd17d16734868bf88b698e0629}
+Fonction qui permet d\textquotesingle{}obtenir l\textquotesingle{}utilisateur
+
+
+\begin{DoxyParams}{Paramètres}
+{\em \$email} & \+: Adresse Email \\
+\hline
+{\em \$mdp} & \+: Mot de Passe \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Renvoie}
+\$la\+Ligne \+: Retourne les informations de l\textquotesingle{}utilisateur 
+\end{DoxyReturn}
+\hypertarget{class_pdo_fredi_a4eb642f54ad574b37530ac472c4d5f85}{}\index{Pdo\+Fredi@{Pdo\+Fredi}!new\+Demandeur@{new\+Demandeur}}
+\index{new\+Demandeur@{new\+Demandeur}!Pdo\+Fredi@{Pdo\+Fredi}}
+\subsubsection[{new\+Demandeur(\$email, \$nom, \$prenom, \$rue, \$cp, \$ville, \$date\+\_\+naissance, \$mdp, \$licence)}]{\setlength{\rightskip}{0pt plus 5cm}new\+Demandeur (
+\begin{DoxyParamCaption}
+\item[{}]{\$email, }
+\item[{}]{\$nom, }
+\item[{}]{\$prenom, }
+\item[{}]{\$rue, }
+\item[{}]{\$cp, }
+\item[{}]{\$ville, }
+\item[{}]{\$date\+\_\+naissance, }
+\item[{}]{\$mdp, }
+\item[{}]{\$licence}
+\end{DoxyParamCaption}
+)}\label{class_pdo_fredi_a4eb642f54ad574b37530ac472c4d5f85}
+Fonction qui permet d\textquotesingle{}ajouter un utilisateur 
+\begin{DoxyParams}{Paramètres}
+{\em \$email} & \\
+\hline
+{\em \$motif} & \\
+\hline
+{\em \$datefrais} & \\
+\hline
+{\em \$trajet} & \\
+\hline
+{\em \$km} & \\
+\hline
+{\em \$cout\+\_\+peage} & \\
+\hline
+{\em \$cout\+\_\+repas} & \\
+\hline
+{\em \$cout\+\_\+hebergement} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_pdo_fredi_a497e67d28e10dfc2f25e18560123afbe}{}\index{Pdo\+Fredi@{Pdo\+Fredi}!new\+Ligne\+Frais@{new\+Ligne\+Frais}}
+\index{new\+Ligne\+Frais@{new\+Ligne\+Frais}!Pdo\+Fredi@{Pdo\+Fredi}}
+\subsubsection[{new\+Ligne\+Frais(\$email, \$motif, \$datefrais, \$trajet, \$km, \$cout\+\_\+peage, \$cout\+\_\+repas, \$cout\+\_\+hebergement)}]{\setlength{\rightskip}{0pt plus 5cm}new\+Ligne\+Frais (
+\begin{DoxyParamCaption}
+\item[{}]{\$email, }
+\item[{}]{\$motif, }
+\item[{}]{\$datefrais, }
+\item[{}]{\$trajet, }
+\item[{}]{\$km, }
+\item[{}]{\$cout\+\_\+peage, }
+\item[{}]{\$cout\+\_\+repas, }
+\item[{}]{\$cout\+\_\+hebergement}
+\end{DoxyParamCaption}
+)}\label{class_pdo_fredi_a497e67d28e10dfc2f25e18560123afbe}
+Fonction qui permet d\textquotesingle{}ajouter une ligne de frais 
+\begin{DoxyParams}{Paramètres}
+{\em \$email} & \\
+\hline
+{\em \$motif} & \\
+\hline
+{\em \$datefrais} & \\
+\hline
+{\em \$trajet} & \\
+\hline
+{\em \$km} & \\
+\hline
+{\em \$cout\+\_\+peage} & \\
+\hline
+{\em \$cout\+\_\+repas} & \\
+\hline
+{\em \$cout\+\_\+hebergement} & \\
+\hline
+\end{DoxyParams}
+\hypertarget{class_pdo_fredi_ab6ef637446cff167c74e4c7a4eabfe03}{}\index{Pdo\+Fredi@{Pdo\+Fredi}!update\+Ligne\+Frais@{update\+Ligne\+Frais}}
+\index{update\+Ligne\+Frais@{update\+Ligne\+Frais}!Pdo\+Fredi@{Pdo\+Fredi}}
+\subsubsection[{update\+Ligne\+Frais(\$idfrais, \$num\+\_\+motif, \$date, \$trajet, \$km, \$cout\+\_\+peage, \$cout\+\_\+repas, \$cout\+\_\+hebergement)}]{\setlength{\rightskip}{0pt plus 5cm}update\+Ligne\+Frais (
+\begin{DoxyParamCaption}
+\item[{}]{\$idfrais, }
+\item[{}]{\$num\+\_\+motif, }
+\item[{}]{\$date, }
+\item[{}]{\$trajet, }
+\item[{}]{\$km, }
+\item[{}]{\$cout\+\_\+peage, }
+\item[{}]{\$cout\+\_\+repas, }
+\item[{}]{\$cout\+\_\+hebergement}
+\end{DoxyParamCaption}
+)}\label{class_pdo_fredi_ab6ef637446cff167c74e4c7a4eabfe03}
+Fonction qui permet de modifier la ligne de frais
+
+
+\begin{DoxyParams}{Paramètres}
+{\em \$idfrais} & \+: I\+D de la ligne \\
+\hline
+{\em \$num\+\_\+motif} & \+: Num du Motif \\
+\hline
+{\em \$date} & \+: Date de la ligne \\
+\hline
+{\em \$trajet} & \+: Libelle du trajet \\
+\hline
+{\em \$km} & \+: Nombres de Km \\
+\hline
+{\em \$cout\+\_\+peage} & \+: Cout du péage \\
+\hline
+{\em \$cout\+\_\+repas} & \+: Cout du repas \\
+\hline
+{\em \$cout\+\_\+hebergement} & \+: Cout de l\textquotesingle{}hebergement \\
+\hline
+\end{DoxyParams}
+
+
+La documentation de cette classe a été générée à partir du fichier suivant \+:\begin{DoxyCompactItemize}
+\item 
+modeles/\hyperlink{class_8pdo_fredi_8inc_8php}{class.\+pdo\+Fredi.\+inc.\+php}\end{DoxyCompactItemize}

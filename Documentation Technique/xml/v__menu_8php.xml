@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="v__menu_8php" kind="file" language="PHP">
+    <compoundname>v_menu.php</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal">&lt;!--<sp/><sp/>Menu<sp/>haut--&gt;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal">&lt;ul<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;menu&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;li&gt;&lt;<ref refid="bootstrap_8min_8js_1ae8f6b400ed3390908c5cdeebed3a82b9" kindref="member">a</ref><sp/>href=</highlight><highlight class="stringliteral">&quot;index.php?uc=connexion&amp;action=voirConnexion&quot;</highlight><highlight class="normal">&gt;<sp/>Connexion<sp/>&lt;/<ref refid="bootstrap_8min_8js_1ae8f6b400ed3390908c5cdeebed3a82b9" kindref="member">a</ref>&gt;&lt;/li&gt;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;li&gt;&lt;<ref refid="bootstrap_8min_8js_1ae8f6b400ed3390908c5cdeebed3a82b9" kindref="member">a</ref><sp/>href=</highlight><highlight class="stringliteral">&quot;index.php?uc=inscription&amp;action=voirInscription&quot;</highlight><highlight class="normal">&gt;<sp/>Inscription<sp/>&lt;/<ref refid="bootstrap_8min_8js_1ae8f6b400ed3390908c5cdeebed3a82b9" kindref="member">a</ref>&gt;&lt;/li&gt;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal">&lt;/ul&gt;</highlight></codeline>
+    </programlisting>
+    <location file="vues/v_menu.php"/>
+  </compounddef>
+</doxygen>

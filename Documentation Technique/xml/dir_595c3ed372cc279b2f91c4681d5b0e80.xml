@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="dir_595c3ed372cc279b2f91c4681d5b0e80" kind="dir">
+    <compoundname>vues</compoundname>
+    <innerfile refid="v__connexion_8php">v_connexion.php</innerfile>
+    <innerfile refid="v__inscription_8php">v_inscription.php</innerfile>
+    <innerfile refid="v__lignefrais_8php">v_lignefrais.php</innerfile>
+    <innerfile refid="v__menu_8php">v_menu.php</innerfile>
+    <innerfile refid="v__menu_compte_8php">v_menuCompte.php</innerfile>
+    <innerfile refid="v__message_8php">v_message.php</innerfile>
+    <innerfile refid="v__modiflignefrais_8php">v_modiflignefrais.php</innerfile>
+    <innerfile refid="v__newfrais_8php">v_newfrais.php</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="vues/"/>
+  </compounddef>
+</doxygen>

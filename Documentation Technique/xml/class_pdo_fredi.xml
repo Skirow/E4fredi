@@ -1,0 +1,575 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="class_pdo_fredi" kind="class" language="PHP" prot="public">
+    <compoundname>PdoFredi</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_pdo_fredi_1a1552be3a092001bd250c619cf9d2b6e1" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$monPdo</definition>
+        <argsstring></argsstring>
+        <name>$monPdo</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="modeles/class.pdoFredi.inc.php" line="15" column="1" bodyfile="modeles/class.pdoFredi.inc.php" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_pdo_fredi_1a019bfc300c489f573b204e227d9eb993" prot="private" static="yes" mutable="no">
+        <type>static</type>
+        <definition>$monPdoFredi</definition>
+        <argsstring></argsstring>
+        <name>$monPdoFredi</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="modeles/class.pdoFredi.inc.php" line="16" column="1" bodyfile="modeles/class.pdoFredi.inc.php" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_pdo_fredi_1a095c5d389db211932136b53f25f39685" prot="private" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>__construct</definition>
+        <argsstring>()</argsstring>
+        <name>__construct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fonction qui crée le <ref refid="class_pdo_fredi" kindref="compound">PdoFredi</ref> <simplesect kind="return"><para>$monPdoFredi </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="modeles/class.pdoFredi.inc.php" line="22" column="1" bodyfile="modeles/class.pdoFredi.inc.php" bodystart="22" bodyend="26"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_pdo_fredi_1a1c6024f681d3956654622d9f28e540a2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>_destruct</definition>
+        <argsstring>()</argsstring>
+        <name>_destruct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fonction qui supprime le Pdo </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="modeles/class.pdoFredi.inc.php" line="31" column="1" bodyfile="modeles/class.pdoFredi.inc.php" bodystart="31" bodyend="33"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pdo_fredi_1ab7a163dd17d16734868bf88b698e0629" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getUtilisateur</definition>
+        <argsstring>($email, $mdp)</argsstring>
+        <name>getUtilisateur</name>
+        <param>
+          <declname>$email</declname>
+        </param>
+        <param>
+          <declname>$mdp</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fonction qui permet d&apos;obtenir l&apos;utilisateur</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$email</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: Adresse Email </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>$mdp</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: Mot de Passe </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>$laLigne : Retourne les informations de l&apos;utilisateur </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="modeles/class.pdoFredi.inc.php" line="54" column="1" bodyfile="modeles/class.pdoFredi.inc.php" bodystart="54" bodyend="60"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pdo_fredi_1a4eb642f54ad574b37530ac472c4d5f85" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>newDemandeur</definition>
+        <argsstring>($email, $nom, $prenom, $rue, $cp, $ville, $date_naissance, $mdp, $licence)</argsstring>
+        <name>newDemandeur</name>
+        <param>
+          <declname>$email</declname>
+        </param>
+        <param>
+          <declname>$nom</declname>
+        </param>
+        <param>
+          <declname>$prenom</declname>
+        </param>
+        <param>
+          <declname>$rue</declname>
+        </param>
+        <param>
+          <declname>$cp</declname>
+        </param>
+        <param>
+          <declname>$ville</declname>
+        </param>
+        <param>
+          <declname>$date_naissance</declname>
+        </param>
+        <param>
+          <declname>$mdp</declname>
+        </param>
+        <param>
+          <declname>$licence</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fonction qui permet d&apos;ajouter un utilisateur <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$email</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>$motif</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>$datefrais</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>$trajet</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>$km</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>$cout_peage</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>$cout_repas</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>$cout_hebergement</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="modeles/class.pdoFredi.inc.php" line="72" column="1" bodyfile="modeles/class.pdoFredi.inc.php" bodystart="72" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pdo_fredi_1a497e67d28e10dfc2f25e18560123afbe" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>newLigneFrais</definition>
+        <argsstring>($email, $motif, $datefrais, $trajet, $km, $cout_peage, $cout_repas, $cout_hebergement)</argsstring>
+        <name>newLigneFrais</name>
+        <param>
+          <declname>$email</declname>
+        </param>
+        <param>
+          <declname>$motif</declname>
+        </param>
+        <param>
+          <declname>$datefrais</declname>
+        </param>
+        <param>
+          <declname>$trajet</declname>
+        </param>
+        <param>
+          <declname>$km</declname>
+        </param>
+        <param>
+          <declname>$cout_peage</declname>
+        </param>
+        <param>
+          <declname>$cout_repas</declname>
+        </param>
+        <param>
+          <declname>$cout_hebergement</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fonction qui permet d&apos;ajouter une ligne de frais <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$email</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>$motif</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>$datefrais</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>$trajet</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>$km</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>$cout_peage</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>$cout_repas</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>$cout_hebergement</parametername>
+</parameternamelist>
+<parameterdescription>
+<para></para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="modeles/class.pdoFredi.inc.php" line="91" column="1" bodyfile="modeles/class.pdoFredi.inc.php" bodystart="91" bodyend="96"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pdo_fredi_1ab6ef637446cff167c74e4c7a4eabfe03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>updateLigneFrais</definition>
+        <argsstring>($idfrais, $num_motif, $date, $trajet, $km, $cout_peage, $cout_repas, $cout_hebergement)</argsstring>
+        <name>updateLigneFrais</name>
+        <param>
+          <declname>$idfrais</declname>
+        </param>
+        <param>
+          <declname>$num_motif</declname>
+        </param>
+        <param>
+          <declname>$date</declname>
+        </param>
+        <param>
+          <declname>$trajet</declname>
+        </param>
+        <param>
+          <declname>$km</declname>
+        </param>
+        <param>
+          <declname>$cout_peage</declname>
+        </param>
+        <param>
+          <declname>$cout_repas</declname>
+        </param>
+        <param>
+          <declname>$cout_hebergement</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fonction qui permet de modifier la ligne de frais</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$idfrais</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: ID de la ligne </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>$num_motif</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: Num du Motif </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>$date</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: Date de la ligne </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>$trajet</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: Libelle du trajet </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>$km</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: Nombres de Km </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>$cout_peage</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: Cout du péage </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>$cout_repas</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: Cout du repas </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>$cout_hebergement</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: Cout de l&apos;hebergement </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="modeles/class.pdoFredi.inc.php" line="109" column="1" bodyfile="modeles/class.pdoFredi.inc.php" bodystart="109" bodyend="115"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pdo_fredi_1a4e959696a4b3c9a53f08e086aac11312" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>deleteLigneFrais</definition>
+        <argsstring>($idfrais)</argsstring>
+        <name>deleteLigneFrais</name>
+        <param>
+          <declname>$idfrais</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fonction qui permet de supprimer la ligne de frais</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$idfrais</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: ID de la ligne de frais </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="modeles/class.pdoFredi.inc.php" line="121" column="1" bodyfile="modeles/class.pdoFredi.inc.php" bodystart="121" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pdo_fredi_1af1aaeb781863467e305ebf71a325ddf8" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getLignesFraisDemandeur</definition>
+        <argsstring>($mail)</argsstring>
+        <name>getLignesFraisDemandeur</name>
+        <param>
+          <declname>$mail</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fonction qui permet d&apos;obtenir les lignes de frais de l&apos;utilisateur</para><para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$mail</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: Adresse Mail de l&apos;utilisateur </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>$lesLignes : Retourne les lignes de frais de l&apos;utilisateur </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="modeles/class.pdoFredi.inc.php" line="132" column="1" bodyfile="modeles/class.pdoFredi.inc.php" bodystart="132" bodyend="140"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pdo_fredi_1ab20d05203b00e430a0f4373b0da62c03" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getLaLignesFraisDemandeur</definition>
+        <argsstring>($idfrais, $mail)</argsstring>
+        <name>getLaLignesFraisDemandeur</name>
+        <param>
+          <declname>$idfrais</declname>
+        </param>
+        <param>
+          <declname>$mail</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fonction qui permet d&apos;obtenir la ligne de frais <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$idfrais</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: ID de la lignes_frais </para></parameterdescription>
+</parameteritem>
+<parameteritem>
+<parameternamelist>
+<parametername>$mail</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: Adresse Mail de l&apos;utilisateur </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>$laLigne : Retourne la liste de frais choisie </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="modeles/class.pdoFredi.inc.php" line="147" column="1" bodyfile="modeles/class.pdoFredi.inc.php" bodystart="147" bodyend="155"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pdo_fredi_1aa6203e1d4f8a89a6b837c01be42581c9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getKm</definition>
+        <argsstring>()</argsstring>
+        <name>getKm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fonction qui permet d&apos;obtenir la constante KM <simplesect kind="return"><para>$ligneKM </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="modeles/class.pdoFredi.inc.php" line="160" column="1" bodyfile="modeles/class.pdoFredi.inc.php" bodystart="160" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pdo_fredi_1ad09c889ade4715362a2f9a91ca3dfb5f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getMotif</definition>
+        <argsstring>($NUM_MOTIF)</argsstring>
+        <name>getMotif</name>
+        <param>
+          <declname>$NUM_MOTIF</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fonction qui permet d&apos;obtenir un Motif <parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>$NUM_MOTIF</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>: Numero du motif </para></parameterdescription>
+</parameteritem>
+</parameterlist>
+<simplesect kind="return"><para>$lignesMotif : Retourne le libelle du Motif </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="modeles/class.pdoFredi.inc.php" line="173" column="1" bodyfile="modeles/class.pdoFredi.inc.php" bodystart="173" bodyend="180"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pdo_fredi_1a14751fcb08935bb959ecdbeeaf7ec429" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>getLesMotifs</definition>
+        <argsstring>()</argsstring>
+        <name>getLesMotifs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fonction qui permet de retourner les motifs&apos;</para><para><simplesect kind="return"><para>$lesMotifs </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="modeles/class.pdoFredi.inc.php" line="186" column="1" bodyfile="modeles/class.pdoFredi.inc.php" bodystart="186" bodyend="193"/>
+      </memberdef>
+      <memberdef kind="function" id="class_pdo_fredi_1a999ec8c14031968ce9d6ba2410105d4b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type></type>
+        <definition>deconnexion</definition>
+        <argsstring>()</argsstring>
+        <name>deconnexion</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fonction qui permet de déconnecter l&apos;utilisateur </para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="modeles/class.pdoFredi.inc.php" line="198" column="1" bodyfile="modeles/class.pdoFredi.inc.php" bodystart="198" bodyend="201"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_pdo_fredi_1a8476065871bfa97da916e3f167e4255d" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>static</type>
+        <definition>static getPdoFredi</definition>
+        <argsstring>()</argsstring>
+        <name>getPdoFredi</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+<para>Fonction qui crée le <ref refid="class_pdo_fredi" kindref="compound">PdoFredi</ref> <simplesect kind="return"><para>$monPdoFredi </para></simplesect>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="modeles/class.pdoFredi.inc.php" line="39" column="1" bodyfile="modeles/class.pdoFredi.inc.php" bodystart="39" bodyend="46"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="modeles/class.pdoFredi.inc.php" line="14" column="1" bodyfile="modeles/class.pdoFredi.inc.php" bodystart="13" bodyend="206"/>
+    <listofallmembers>
+      <member refid="class_pdo_fredi_1a1552be3a092001bd250c619cf9d2b6e1" prot="private" virt="non-virtual"><scope>PdoFredi</scope><name>$monPdo</name></member>
+      <member refid="class_pdo_fredi_1a019bfc300c489f573b204e227d9eb993" prot="private" virt="non-virtual"><scope>PdoFredi</scope><name>$monPdoFredi</name></member>
+      <member refid="class_pdo_fredi_1a095c5d389db211932136b53f25f39685" prot="private" virt="non-virtual"><scope>PdoFredi</scope><name>__construct</name></member>
+      <member refid="class_pdo_fredi_1a1c6024f681d3956654622d9f28e540a2" prot="public" virt="non-virtual"><scope>PdoFredi</scope><name>_destruct</name></member>
+      <member refid="class_pdo_fredi_1a999ec8c14031968ce9d6ba2410105d4b" prot="public" virt="non-virtual"><scope>PdoFredi</scope><name>deconnexion</name></member>
+      <member refid="class_pdo_fredi_1a4e959696a4b3c9a53f08e086aac11312" prot="public" virt="non-virtual"><scope>PdoFredi</scope><name>deleteLigneFrais</name></member>
+      <member refid="class_pdo_fredi_1aa6203e1d4f8a89a6b837c01be42581c9" prot="public" virt="non-virtual"><scope>PdoFredi</scope><name>getKm</name></member>
+      <member refid="class_pdo_fredi_1ab20d05203b00e430a0f4373b0da62c03" prot="public" virt="non-virtual"><scope>PdoFredi</scope><name>getLaLignesFraisDemandeur</name></member>
+      <member refid="class_pdo_fredi_1a14751fcb08935bb959ecdbeeaf7ec429" prot="public" virt="non-virtual"><scope>PdoFredi</scope><name>getLesMotifs</name></member>
+      <member refid="class_pdo_fredi_1af1aaeb781863467e305ebf71a325ddf8" prot="public" virt="non-virtual"><scope>PdoFredi</scope><name>getLignesFraisDemandeur</name></member>
+      <member refid="class_pdo_fredi_1ad09c889ade4715362a2f9a91ca3dfb5f" prot="public" virt="non-virtual"><scope>PdoFredi</scope><name>getMotif</name></member>
+      <member refid="class_pdo_fredi_1a8476065871bfa97da916e3f167e4255d" prot="public" virt="non-virtual"><scope>PdoFredi</scope><name>getPdoFredi</name></member>
+      <member refid="class_pdo_fredi_1ab7a163dd17d16734868bf88b698e0629" prot="public" virt="non-virtual"><scope>PdoFredi</scope><name>getUtilisateur</name></member>
+      <member refid="class_pdo_fredi_1a4eb642f54ad574b37530ac472c4d5f85" prot="public" virt="non-virtual"><scope>PdoFredi</scope><name>newDemandeur</name></member>
+      <member refid="class_pdo_fredi_1a497e67d28e10dfc2f25e18560123afbe" prot="public" virt="non-virtual"><scope>PdoFredi</scope><name>newLigneFrais</name></member>
+      <member refid="class_pdo_fredi_1ab6ef637446cff167c74e4c7a4eabfe03" prot="public" virt="non-virtual"><scope>PdoFredi</scope><name>updateLigneFrais</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

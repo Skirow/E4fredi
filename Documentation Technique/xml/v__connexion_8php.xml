@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.10">
+  <compounddef id="v__connexion_8php" kind="file" language="PHP">
+    <compoundname>v_connexion.php</compoundname>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="normal">&lt;head&gt;</highlight></codeline>
+<codeline lineno="2"><highlight class="normal"><sp/><sp/>&lt;link<sp/>rel=</highlight><highlight class="stringliteral">&quot;stylesheet&quot;</highlight><highlight class="normal"><sp/>type=</highlight><highlight class="stringliteral">&quot;text/css&quot;</highlight><highlight class="normal"><sp/>href=</highlight><highlight class="stringliteral">&quot;./css/connexion.css&quot;</highlight><highlight class="normal"><sp/>/&gt;</highlight></codeline>
+<codeline lineno="3"><highlight class="normal">&lt;/head&gt;</highlight></codeline>
+<codeline lineno="4"><highlight class="normal">&lt;div<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;connexion&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;container&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="5"><highlight class="normal"><sp/><sp/>&lt;form<sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;contact&quot;</highlight><highlight class="normal"><sp/>action=</highlight><highlight class="stringliteral">&quot;?uc=connexion&amp;action=connexion&quot;</highlight><highlight class="normal"><sp/>method=</highlight><highlight class="stringliteral">&quot;post&quot;</highlight><highlight class="normal">&gt;</highlight></codeline>
+<codeline lineno="6"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;h3&gt;Authentification&lt;/h3&gt;</highlight></codeline>
+<codeline lineno="7"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;p<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;copyright&quot;</highlight><highlight class="normal">&gt;<sp/>&lt;?php<sp/></highlight><highlight class="keywordflow">if</highlight><highlight class="normal">(isset($message))<sp/>echo<sp/>$message<sp/>?&gt;&lt;/p&gt;</highlight></codeline>
+<codeline lineno="8"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>&lt;p<sp/></highlight><highlight class="keyword">class</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;copyright&quot;</highlight><highlight class="normal">&gt;<sp/><sp/><sp/>&lt;?php<sp/>include(</highlight><highlight class="stringliteral">&quot;vues/v_menu.php&quot;</highlight><highlight class="normal">)<sp/>;?&gt;&lt;/p&gt;</highlight></codeline>
+<codeline lineno="9"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;fieldset&gt;</highlight></codeline>
+<codeline lineno="10"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;input<sp/>placeholder=</highlight><highlight class="stringliteral">&quot;Email&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;email&quot;</highlight><highlight class="normal"><sp/>type=</highlight><highlight class="stringliteral">&quot;email&quot;</highlight><highlight class="normal"><sp/>name=</highlight><highlight class="stringliteral">&quot;email&quot;</highlight><highlight class="normal"><sp/>tabindex=</highlight><highlight class="stringliteral">&quot;1&quot;</highlight><highlight class="normal"><sp/>required<sp/>autofocus&gt;</highlight></codeline>
+<codeline lineno="11"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;/fieldset&gt;</highlight></codeline>
+<codeline lineno="12"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;fieldset&gt;</highlight></codeline>
+<codeline lineno="13"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;input<sp/>placeholder=</highlight><highlight class="stringliteral">&quot;Mot<sp/>de<sp/>passe&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;mdp&quot;</highlight><highlight class="normal"><sp/>type=</highlight><highlight class="stringliteral">&quot;password&quot;</highlight><highlight class="normal"><sp/>name=</highlight><highlight class="stringliteral">&quot;mdp&quot;</highlight><highlight class="normal"><sp/>tabindex=</highlight><highlight class="stringliteral">&quot;1&quot;</highlight><highlight class="normal"><sp/>required&gt;</highlight></codeline>
+<codeline lineno="14"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;/fieldset&gt;</highlight></codeline>
+<codeline lineno="15"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;fieldset&gt;</highlight></codeline>
+<codeline lineno="16"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/>&lt;<ref refid="bootstrap_8min_8js_1a55e170814e74f6c3db8ae9ea3ba9054f" kindref="member">button</ref><sp/>name=</highlight><highlight class="stringliteral">&quot;submit&quot;</highlight><highlight class="normal"><sp/>type=</highlight><highlight class="stringliteral">&quot;submit&quot;</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">id</highlight><highlight class="normal">=</highlight><highlight class="stringliteral">&quot;contact-submit&quot;</highlight><highlight class="normal"><sp/>data-submit=</highlight><highlight class="stringliteral">&quot;...Sending&quot;</highlight><highlight class="normal">&gt;Envoyer&lt;/<ref refid="bootstrap_8min_8js_1a55e170814e74f6c3db8ae9ea3ba9054f" kindref="member">button</ref>&gt;</highlight></codeline>
+<codeline lineno="17"><highlight class="normal"><sp/><sp/><sp/><sp/>&lt;/fieldset&gt;</highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"><sp/><sp/>&lt;/form&gt;</highlight></codeline>
+<codeline lineno="20"><highlight class="normal">&lt;/div&gt;</highlight></codeline>
+    </programlisting>
+    <location file="vues/v_connexion.php"/>
+  </compounddef>
+</doxygen>
